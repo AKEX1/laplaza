@@ -1,0 +1,66 @@
+h1 {
+    color: chocolate;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#contenedor-izquierdo {
+    background-color: aquamarine;
+    width: 15%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    padding: 10px;
+
+}
+
+#contenedor-derecho {
+    background-color: rgb(129, 127, 255);
+    width: 15%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    padding: 10px;
+
+}
+
+
+.contenedor-componente {
+    position: relative;
+    height: 10.5%;
+    left: 20%;
+
+}
+
+.componente {
+    position: absolute;
+    max-width: 100%;
+    max-height: 150%;
+    z-index: 2;
+}
+
+.cielo {
+    height: 80%;
+    width: 60%;
+    background-color: blue;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0.5%;
+    left: 20%;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.suelo {
+    height: 25%;
+    width: 60%;
+    background-color: green;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0.5%;
+    left: 20%;
+    z-index: 1;
+}
